@@ -1,0 +1,41 @@
+
+.cocktail_card {
+    display: inline-block;
+    background-color: #e3e7e2;
+    border: 10px solid #754f44;
+    width: 400px;
+    box-shadow: 10px 10px 14px 2px ;
+    border-radius: 25px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+}
+
+.cocktail_title {
+    font-size: large;
+    position: relative;
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+}
+
+.ingredients {
+    text-align: left;
+    padding-left: 20px;    
+}
+
+/* .instructions {
+} */
+
+.instructions_title {
+    text-align: left;
+    padding-left: 20px; 
+}
+
+.instructions_text {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+} 
