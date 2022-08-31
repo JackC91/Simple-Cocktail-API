@@ -1,0 +1,10 @@
+Nav bar
+    - search by cocktail text input
+    - button
+
+CSS
+    - decide final colours
+    - background image
+
+Functionality
+    - display for multiple data return, carousel or list/grid?
