@@ -1,7 +1,7 @@
 function CocktailInstructions({cocktail}) {
     return (
         <div className="instructions">
-        <p className="instructions_title">How to make a {cocktail.strDrink}</p>
+        <h4 className="instructions_title">How to make a {cocktail.strDrink}</h4>
         <p className="instructions_text">
         {cocktail.strInstructions}</p>
         </div>

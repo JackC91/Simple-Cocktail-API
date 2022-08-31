@@ -18,7 +18,7 @@ function IngredientList({cocktail}) {
     
     return (
         <div className="ingredients">
-        <p>Ingredients</p>
+        <h4>Ingredients</h4>
         <ul>
             <CocktailIngredientOne cocktail={cocktail}/>
             <CocktailIngredientTwo cocktail={cocktail}/>
