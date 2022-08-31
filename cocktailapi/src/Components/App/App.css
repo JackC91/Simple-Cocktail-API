@@ -1,14 +1,40 @@
+.app {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    top: 0;
+    z-index: 100;
+    background-color: aquamarine;
+    height: 7.5vh;
+}
+
+.textbox {
+    margin-right: 2em;
+    border-radius: 1em;
+    font-weight: 800;
+}
+
+.search_button {
+    border-radius: 1em;
+    background-color: white;
+    font-weight: 800;
+}
 
 .cocktail_card {
     display: inline-block;
     background-color: #e3e7e2;
-    border: 10px solid #754f44;
+    border: 10px solid black;
     width: 400px;
     box-shadow: 10px 10px 14px 2px ;
     border-radius: 25px;
     position: absolute;
     left: 50%;
     margin-left: -100px;
+    margin-top: 50px;
 }
 
 .cocktail_title {

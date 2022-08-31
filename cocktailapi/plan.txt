@@ -1,6 +1,9 @@
 Nav bar
     - search by cocktail text input
     - button
+    - logic here needs working out, what level does
+      the function need to live in order to capture the
+      text state and update the cocktail state?
 
 CSS
     - decide final colours

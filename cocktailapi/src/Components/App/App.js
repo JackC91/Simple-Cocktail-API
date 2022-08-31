@@ -2,6 +2,7 @@ import './App.css';
 import {useState, useEffect} from 'react';
 
 import CocktailCard from '../CocktailCard/CocktailCard';
+import NavBar from '../NavBar/NavBar';
 
 function App() {
 const [cocktail, setCocktail] = useState([]);
@@ -20,6 +21,7 @@ useEffect(() => {
 
   return (
     <div className="App">
+    <NavBar/>
     <CocktailCard cocktail={cocktail}/>
     </div>
   );
