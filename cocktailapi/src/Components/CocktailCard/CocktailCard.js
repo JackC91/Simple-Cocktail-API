@@ -5,7 +5,6 @@ import CocktailTitle from "../CocktailTitle/CocktailTitle";
 
 
 function CocktailCard({cocktail}) {
-    console.log(cocktail)
     return (
         <div className="cocktail_card">
             <CocktailTitle cocktail={cocktail.strDrink}/>
