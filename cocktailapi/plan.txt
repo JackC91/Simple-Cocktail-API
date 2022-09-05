@@ -1,13 +1,17 @@
 Nav bar
-    - search by cocktail text input
-    - button
-    - logic here needs working out, what level does
+    X search by cocktail text input
+    X button
+    X logic here needs working out, what level does
       the function need to live in order to capture the
       text state and update the cocktail state?
 
 CSS
-    - decide final colours
-    - background image
+    X decide final colours
 
 Functionality
-    - display for multiple data return, carousel or list/grid?
+    X display for multiple data return, carousel or list/grid?
+
+final
+    - font style
+    - mobile responsive
+    - api has other routes, use?

@@ -4,8 +4,8 @@ function CocktailImage({cocktail}) {
         <img 
         src={cocktail.strDrinkThumb} 
         alt={cocktail.strDrink}
-        width={300}
-        height={300}    
+        width={400}
+        height={400}    
         />
         </div>
     )
