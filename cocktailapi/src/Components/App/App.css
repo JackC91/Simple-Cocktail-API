@@ -23,12 +23,24 @@
     background-color: white;
     font-weight: 800;
     margin-right: 2em;
+    box-shadow: 2.5px 2.5px black;
+}
+
+.search_button:hover, .search_button:active {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .random_button {
     border-radius: 1em;
     background-color: white;
     font-weight: 800;
+    box-shadow: 2.5px 2.5px black;
+}
+
+.random_button:hover, .random_button:active {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .cocktail_card {
