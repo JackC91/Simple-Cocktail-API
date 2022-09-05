@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function NavBar() {
+function NavBar({getRandomCocktail}) {
     const [text, setText] = useState("");
 
     function captureUserInput(e) {
@@ -23,6 +23,7 @@ function NavBar() {
         <button className="search_button"
         onClick={() => console.log(text)}
         >Search</button>
+        <button className="random_button" onClick={getRandomCocktail}>Randomize</button>
         </div>
     )
 }

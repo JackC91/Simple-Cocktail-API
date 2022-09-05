@@ -21,7 +21,7 @@ useEffect(() => {
 
   return (
     <div className="App">
-    <NavBar/>
+    <NavBar getRandomCocktail={getRandomCocktail}/>
     <CocktailCard cocktail={cocktail}/>
     </div>
   );

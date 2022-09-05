@@ -22,6 +22,13 @@
     border-radius: 1em;
     background-color: white;
     font-weight: 800;
+    margin-right: 2em;
+}
+
+.random_button {
+    border-radius: 1em;
+    background-color: white;
+    font-weight: 800;
 }
 
 .cocktail_card {
