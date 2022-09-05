@@ -1,6 +1,6 @@
-.app {
-    display: flex;
-    justify-content: center;
+.App {
+    position: relative;
+    margin: auto;
 }
 
 .navbar {
@@ -47,13 +47,14 @@
     display: inline-block;
     background-color: #e3e7e2;
     border: 10px solid black;
-    width: 400px;
+    max-width: 400px;
     box-shadow: 10px 10px 14px 2px ;
     border-radius: 25px;
-    position: absolute;
+    position: relative;
+    margin-top: 24em;
     left: 50%;
-    margin-left: -100px;
-    margin-top: 50px;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .cocktail_title {
