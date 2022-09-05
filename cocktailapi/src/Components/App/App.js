@@ -11,7 +11,6 @@ async function getRandomCocktail() {
   const res = await fetch('https://www.thecocktaildb.com/api/json/v1/1/random.php');
   const data = await res.json();
   setCocktail(data.drinks[0])
-  //console.log(cocktail)
 }
 
 //execute get request upon every page render, need function wrapping in handleclick for button
@@ -19,9 +18,15 @@ useEffect(() => {
   getRandomCocktail();
 }, []);
 
+    async function searchCocktailByName(text) {
+        const res = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${text}`);
+        const data = await res.json();
+        setCocktail(data.drinks[0])
+    }
+
   return (
     <div className="App">
-    <NavBar getRandomCocktail={getRandomCocktail}/>
+    <NavBar getRandomCocktail={getRandomCocktail} searchCocktailByName={searchCocktailByName}/>
     <CocktailCard cocktail={cocktail}/>
     </div>
   );

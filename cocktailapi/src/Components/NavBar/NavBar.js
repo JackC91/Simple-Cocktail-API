@@ -1,16 +1,11 @@
 import { useState } from "react";
 
-function NavBar({getRandomCocktail}) {
+function NavBar({getRandomCocktail, searchCocktailByName}) {
     const [text, setText] = useState("");
 
     function captureUserInput(e) {
       setText(e.target.value);
     }
-
-    // async function searchCocktailByName(cocktail) {
-    //     const response = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${cocktail}`);
-    //     await response.json()
-    // }
 
     return (
         <div className="navbar">
@@ -21,7 +16,7 @@ function NavBar({getRandomCocktail}) {
             onChange={captureUserInput}
             />
         <button className="search_button"
-        onClick={() => console.log(text)}
+        onClick={() => searchCocktailByName(text)}
         >Search</button>
         <button className="random_button" onClick={getRandomCocktail}>Randomize</button>
         </div>
