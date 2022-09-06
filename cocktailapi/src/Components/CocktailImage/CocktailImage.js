@@ -1,11 +1,9 @@
 function CocktailImage({cocktail}) {
     return (
-        <div className="image" >
-        <img 
+        <div className="image_div" >
+        <img className="image"
         src={cocktail.strDrinkThumb} 
-        alt={cocktail.strDrink}
-        width={400}
-        height={400}    
+        alt={cocktail.strDrink} 
         />
         </div>
     )
