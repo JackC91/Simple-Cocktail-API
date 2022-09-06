@@ -13,5 +13,5 @@ Functionality
 
 final
     - font style
-    - mobile responsive
+    X mobile responsive
     - api has other routes, use?
