@@ -27,6 +27,7 @@ useEffect(() => {
   return (
     <div className="App">
     <NavBar getRandomCocktail={getRandomCocktail} searchCocktailByName={searchCocktailByName}/> 
+     <h1 className="title">Cocktails For You</h1>
      {cocktail.map((drink, index) =>
      <CocktailCard key={index} cocktail={drink}/>
      )}

@@ -18,7 +18,7 @@
 }
 
 .textbox {
-    margin-right: -5.5em;
+    margin-right: -5em;
     border-radius: 1em;
     font-weight: 800;
     box-shadow: 2.5px 2.5px black;
@@ -47,6 +47,10 @@
 .random_button:hover, .random_button:active {
     transform: scale(1.1);
     cursor: pointer;
+}
+
+.title {
+    text-align: center;
 }
 
 .cocktail_card {
