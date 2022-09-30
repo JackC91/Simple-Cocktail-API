@@ -3,6 +3,7 @@ import {useState, useEffect} from 'react';
 
 import CocktailCard from '../CocktailCard/CocktailCard';
 import NavBar from '../NavBar/NavBar';
+import ScrollButton from '../ScrollButton/ScrollButton';
 
 function App() {
 const [cocktail, setCocktail] = useState([]);
@@ -31,6 +32,7 @@ useEffect(() => {
      {cocktail.map((drink, index) =>
      <CocktailCard key={index} cocktail={drink}/>
      )}
+        <ScrollButton/>
     </div>
   );
 }
