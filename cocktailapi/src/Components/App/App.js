@@ -3,6 +3,7 @@ import {useState, useEffect} from 'react';
 
 import CocktailCard from '../CocktailCard/CocktailCard';
 import NavBar from '../NavBar/NavBar';
+import ScrollButton from '../ScrollButton/ScrollButton';
 
 function App() {
 const [cocktail, setCocktail] = useState([]);
@@ -23,7 +24,6 @@ useEffect(() => {
         const data = await res.json();
         setCocktail(data.drinks)
     }
-    console.log(cocktail)
   return (
     <div className="App">
     <NavBar getRandomCocktail={getRandomCocktail} searchCocktailByName={searchCocktailByName}/> 
@@ -31,6 +31,7 @@ useEffect(() => {
      {cocktail.map((drink, index) =>
      <CocktailCard key={index} cocktail={drink}/>
      )}
+        <ScrollButton/>
     </div>
   );
 }
