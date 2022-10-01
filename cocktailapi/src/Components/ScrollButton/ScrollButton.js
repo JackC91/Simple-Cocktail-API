@@ -1,6 +1,6 @@
 function ScrollButton() {
     return (
-        <div>
+        <div className="scroll_container">
             <button className="scroll_button">Back to top</button>
         </div>
     )

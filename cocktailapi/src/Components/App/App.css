@@ -57,6 +57,11 @@
     cursor: pointer;
 }
 
+.scroll_container {
+    display: flex;
+    justify-content: center;
+}
+
 .scroll_button {
     border-radius: 1em;
     background-color: white;
@@ -69,14 +74,11 @@
     max-width: 30%;
     padding-top: 0.3em;
     padding-bottom: 0.3em;
-    transform: translate(-50%, 0%);
-    left: 50%;
 }
 
 .scroll_button:hover, .scroll_button:active {
     transform: scale(1.1);
     cursor: pointer;
-    left: 50%;
 }
 
 .title {
