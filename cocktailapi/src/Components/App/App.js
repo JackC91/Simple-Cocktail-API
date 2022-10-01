@@ -24,7 +24,6 @@ useEffect(() => {
         const data = await res.json();
         setCocktail(data.drinks)
     }
-    console.log(cocktail)
   return (
     <div className="App">
     <NavBar getRandomCocktail={getRandomCocktail} searchCocktailByName={searchCocktailByName}/> 
